@@ -18,6 +18,7 @@ public class BusServiceImpl implements BusService{
     @Override
     public BusDetails saveData(BusDto busDto) {
 
+        // Saving the bus details
         BusDetails busDetails = new BusDetails();
         busDetails.setBusName(busDto.getBusName());
         busDetails.setBusBrand(busDto.getBusBrand());
